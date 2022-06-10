@@ -5,12 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Components.fs" />
-    <Compile Include="App.fs" />
+    <Compile Include="Components.fs"/>
+    <Compile Include="Svg.fs"/>
+    <Compile Include="Sketch.fs"/>
+    <Compile Include="Counter.fs"/>
+    <Compile Include="Shoelace.fs"/>
+    <Compile Include="TodoElmish.fs"/>
+    <Compile Include="App.fs"/>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Elmish.Solid\Elmish.Solid.fsproj" />
+    <ProjectReference Include="..\Elmish.Solid\Elmish.Solid.fsproj"/>
   </ItemGroup>
 
 </Project>
